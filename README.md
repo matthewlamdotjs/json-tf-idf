@@ -1,11 +1,11 @@
 # json-tf-idf
 ultra lightweight NodeJs multi-keyword ranked search function for array of json objects
 
-# keys / indices
+## keys / indices
 There is no keyed index configuration for the search, nor do the keys of each object within the input array have to match. The "document" in the tf-idf algorithm is essentially the concatenation of all of the object properties of type string.
 
-# usage
-```
+## usage
+```javascript
 import simpleSearch from 'json-tf-idf';
 
 let data = [
