@@ -1,0 +1,1 @@
+export simpleSearch from './src/SimpleSearch.js'
