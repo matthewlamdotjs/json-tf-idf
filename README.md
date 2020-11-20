@@ -43,7 +43,7 @@ console.log(simpleSearch(query, data));
 // [
 //   {
 //     username: 'Jeff',
-//    address: '123 sesame street',
+//     address: '123 sesame street',
 //     notes: 'coded 200 lines of code today'
 //   },
 //   {
