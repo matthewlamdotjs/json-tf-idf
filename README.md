@@ -6,7 +6,7 @@ There is no keyed index configuration for the search, nor do the keys of each ob
 
 ## usage
 ```javascript
-import simpleSearch from 'json-tf-idf';
+const simpleSearch = require('@matthewlam.js/json-tf-idf');
 
 let data = [
   // note object keys need not match, it will treat all string properties as the "document" in tf-idf
