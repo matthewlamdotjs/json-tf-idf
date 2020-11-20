@@ -74,4 +74,4 @@ const simpleSearch = (query, documents) => {
         });
 }
  
-export default simpleSearch;
+module.exports = simpleSearch;

@@ -1,6 +1,6 @@
 {
   "name": "@matthewlam.js/json-tf-idf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ultra lightweight NodeJs multi-keyword ranked search function for array of json objects",
   "main": "index.js",
   "scripts": {

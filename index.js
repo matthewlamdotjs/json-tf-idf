@@ -1,1 +1,1 @@
-export simpleSearch from './src/SimpleSearch.js'
+module.exports = require('./src/SimpleSearch.js');
