@@ -22,7 +22,7 @@ const simpleSearch = (query, documents) => {
 
     // make copy and init
     let modifiedDocs = documents.map((document) => { 
-        // init tdidf value
+        // init tfidf value
         document.tfidf = 0;
         // Create doc array from object properties
         let doc = [];
