@@ -1,3 +1,5 @@
+const sw = require('stopword');
+
 /**
  * Implementation of the TF-IDF ranked multi-keyword search algorithm
  * adapted from guenodz java snippet: https://gist.github.com/guenodz/d5add59b31114a3a3c66
@@ -32,8 +34,8 @@ const simpleSearch = (query, documents) => {
         return document;
     });
 
-    // iterate over terms in query
-    query.split(' ').forEach((term) => {
+    // iterate over terms in query not including stopwords
+    sw.removeStopwords(query.split(' ')).forEach((term) => {
         
         // total documents containing current term
         let idfTermCount = 0;
@@ -72,6 +74,6 @@ const simpleSearch = (query, documents) => {
             delete document.doc;
             return document;
         });
-}
+};
  
 module.exports = simpleSearch;

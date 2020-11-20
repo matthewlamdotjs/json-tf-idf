@@ -1,7 +1,7 @@
 {
   "name": "@matthewlam.js/json-tf-idf",
-  "version": "1.0.2",
-  "description": "ultra lightweight NodeJs multi-keyword ranked search function for array of json objects",
+  "version": "1.1.0",
+  "description": "An ultra lightweight NodeJS multi-keyword ranked search function for array of json objects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +11,21 @@
     "url": "https://github.com/matthewlamdotjs/json-tf-idf.git"
   },
   "keywords": [
-    "tf","idf","ranked","search","array","object","json"
+    "tf",
+    "idf",
+    "ranked",
+    "search",
+    "array",
+    "object",
+    "json"
   ],
   "author": "Matthew Lam",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/matthewlamdotjs/json-tf-idf/issues"
   },
-  "homepage": "https://github.com/matthewlamdotjs/json-tf-idf"
+  "homepage": "https://github.com/matthewlamdotjs/json-tf-idf",
+  "dependencies": {
+    "stopword": "^1.0.3"
+  }
 }
