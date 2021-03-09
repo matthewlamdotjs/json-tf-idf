@@ -2,7 +2,7 @@
 An ultra lightweight NodeJS multi-keyword ranked search function for array of json objects
 
 ## keys / indices
-The "document" in the tf-idf algorithm is essentially the concatenation of all of the object properties of type string. There is no support for an include / exclude list of keys.
+The "document" in the tf-idf algorithm is essentially the concatenation of all of the object properties of type string. There is no support for an include / exclude list of keys. For more information on the tf-idf algorithm and the theory behind it, check out <a href='http://www.tfidf.com/'>http://www.tfidf.com/</a>.
 
 ## stopwords
 Stopwords are removed from each query using the stopword.removeStopwords() function from the npm package "stopword".
